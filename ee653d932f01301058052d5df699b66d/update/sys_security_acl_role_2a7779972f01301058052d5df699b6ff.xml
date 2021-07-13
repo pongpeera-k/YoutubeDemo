@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 03:36:58</sys_created_on>
+        <sys_id>2a7779972f01301058052d5df699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_664324_youtubede_pets.x_664324_youtubede.admin youtubedemo</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_security_acl display_value="x_664324_youtubede_pets">9e7779972f01301058052d5df699b6fc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2a7779972f01301058052d5df699b6ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 03:36:58</sys_updated_on>
+        <sys_user_role display_value="x_664324_youtubede.admin youtubedemo" name="x_664324_youtubede.admin youtubedemo">d53631172f01301058052d5df699b6a4</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

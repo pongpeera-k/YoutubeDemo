@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2e27c72d2fd1301058052d5df699b610</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:11:42</sys_created_on>
+        <sys_id>1637c72d2fd1301058052d5df699b65f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>sp_instance_1637c72d2fd1301058052d5df699b65f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:11:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1637c72d2fd1301058052d5df699b65f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</application>
+        <file_path/>
+        <instance_id>55153a72dbc097044065f0e5bf961935</instance_id>
+        <instance_name>dev49358</instance_name>
+        <name>sp_instance_1637c72d2fd1301058052d5df699b65f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">2e27c72d2fd1301058052d5df699b610</sp_column><sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-12 09:11:42</sys_created_on><sys_id>1637c72d2fd1301058052d5df699b65f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package><sys_policy/><sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope><sys_update_name>sp_instance_1637c72d2fd1301058052d5df699b65f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-12 09:11:42</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1637c72d2fd1301058052d5df699b65f"/></record_update>]]></payload>
+        <payload_hash>426929999</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e2653d932f01301058052d5df699b670</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:11:42</sys_created_on>
+        <sys_id>d237c72d2fd1301058052d5df699b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a99fc8c010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:11:42</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>1e37c72d6fd1301078cc2d8303986161</update_guid>
+        <update_guid_history>1e37c72d6fd1301078cc2d8303986161:426929999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e9470be92fd1301058052d5df699b63a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:11:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>a0c269e429e4468ba48c1c5ee316f1e9</sys_id>
+        <sys_metadata>1637c72d2fd1301058052d5df699b65f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_scope_delete display_value="">072dc606f013415a9abfaded84df09f9</sys_scope_delete>
+        <sys_update_name>sp_instance_1637c72d2fd1301058052d5df699b65f</sys_update_name>
+        <sys_update_version display_value="sp_instance_1637c72d2fd1301058052d5df699b65f">d237c72d2fd1301058052d5df699b662</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:11:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

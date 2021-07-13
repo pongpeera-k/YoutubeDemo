@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	document.getElementById('uniquename').addEventListener("keyup", function(){
+		console.log("Hello, " + document.getElementById('uniquename').value)
+		var timeout = null;
+    clearTimeout(timeout);
+
+    // Make a new timeout set to go off in 1000ms (1 second)
+    timeout = setTimeout(function () {
+      console.log(c.data)
+		}, 1000);
+	})
+};
+
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>test_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>test form</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.testVariable = "Hi"
+	
+	data.myFunction = function(){
+		return "HelloWorld"
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:20:56</sys_created_on>
+        <sys_id>295983ad2fd1301058052d5df699b6ea</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>test form</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>sp_widget_295983ad2fd1301058052d5df699b6ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 14:59:57</sys_updated_on>
+        <template><![CDATA[<form>
+  <div class="form-group">
+    <label for="name">{{c.data.testVariable}}</label>
+    <input type="text" class="form-control" id="uniquename" value={{c.data.testVariable}}>
+  </div>
+</form>]]></template>
+    </sp_widget>
+</record_update>

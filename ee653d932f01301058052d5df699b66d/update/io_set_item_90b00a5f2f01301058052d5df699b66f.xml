@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Pets beautifier">381cfd5b2f01301058052d5df699b6c0</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 04:17:23</sys_created_on>
+        <sys_id>90b00a5f2f01301058052d5df699b66f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pets Variable Set.Pets appreciation</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>io_set_item_90b00a5f2f01301058052d5df699b66f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 04:17:23</sys_updated_on>
+        <variable_set display_value="Pets Variable Set">5aadb1db2f01301058052d5df699b685</variable_set>
+    </io_set_item>
+</record_update>

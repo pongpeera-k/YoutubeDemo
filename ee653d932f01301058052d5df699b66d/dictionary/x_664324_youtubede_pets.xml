@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pets" max_length="40" name="x_664324_youtubede_pets" sizeclass="1" type="collection">
+        <element label="Barber" max_length="32" name="barber" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner_id" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Pet Name" max_length="40" name="pet_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pet Type" max_length="40" name="pet_type" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="owner_id"/>
+        </index>
+        <index name="index2">
+            <element name="barber"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

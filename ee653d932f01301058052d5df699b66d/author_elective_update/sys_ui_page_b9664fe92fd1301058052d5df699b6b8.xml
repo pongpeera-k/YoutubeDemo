@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description>to test servicenow</description>
+        <direct>false</direct>
+        <endpoint>x_664324_youtubede_my testing page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></html>
+        <name>my testing page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:08:48</sys_created_on>
+        <sys_id>b9664fe92fd1301058052d5df699b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my testing page</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>sys_ui_page_b9664fe92fd1301058052d5df699b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:08:48</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</application>
+        <file_path/>
+        <instance_id>55153a72dbc097044065f0e5bf961935</instance_id>
+        <instance_name>dev49358</instance_name>
+        <name>sys_ui_page_b9664fe92fd1301058052d5df699b6b8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;to test servicenow&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_664324_youtubede_my testing page.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;my testing page&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-12 09:08:48&lt;/sys_created_on&gt;&lt;sys_id&gt;b9664fe92fd1301058052d5df699b6b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;my testing page&lt;/sys_name&gt;&lt;sys_package display_value="YoutubeDemo" source="x_664324_youtubede"&gt;ee653d932f01301058052d5df699b66d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="YoutubeDemo"&gt;ee653d932f01301058052d5df699b66d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_b9664fe92fd1301058052d5df699b6b8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-12 09:08:48&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>213563178</payload_hash>
+        <record_name>my testing page</record_name>
+        <reverted_from/>
+        <source>e2653d932f01301058052d5df699b670</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:08:48</sys_created_on>
+        <sys_id>ff86cfe92fd1301058052d5df699b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a99f9e2cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:08:48</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>3b86cfe9fbd13010c91e26c00f744a63</update_guid>
+        <update_guid_history>3b86cfe9fbd13010c91e26c00f744a63:213563178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:10:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>4e4b359f14d14b4a9df1c8b2a1015a39</sys_id>
+        <sys_metadata>b9664fe92fd1301058052d5df699b6b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my testing page</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_scope_delete display_value="">072dc606f013415a9abfaded84df09f9</sys_scope_delete>
+        <sys_update_name>sys_ui_page_b9664fe92fd1301058052d5df699b6b8</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_b9664fe92fd1301058052d5df699b6b8">ff86cfe92fd1301058052d5df699b663</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:10:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

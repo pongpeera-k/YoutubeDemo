@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="New clock">6dc794ab2fc5301058052d5df699b694</child>
+        <cloned>2021-07-05 15:17:19</cloned>
+        <last_validated>2021-07-05 15:17:19</last_validated>
+        <parent display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;sample&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($timeout) {
+	var c = this;
+	c.darkness = "";
+	if (!c.options.c_color || !c.options.c_color.length)
+		c.options.c_color = 'red';
+	
+	var z = c.options.zone || "America/Los_Angeles"
+	c.date = moment().tz(z);
+	c.majors = new Array(12);
+	c.minors = new Array(60); 
+	(function tick() {
+		c.date = new moment().tz(z);
+		var t = c.date.hours();
+		c.darkness = "";
+		if (t &gt; 17)
+			c.darkness = "evening";
+		if (t &gt; 19)
+			c.darkness = "night";
+		if (t &lt; 5)
+			c.darkness = "night";
+		
+		$timeout(tick, 1000);
+	})();
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.clock {
+  width: 100%;
+  max-width:400px;
+  max-height: 400px;
+  padding: 1em;
+  margin: auto;
+}
+
+.square {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+}
+
+.clock-face {
+	stroke: #333;
+	fill: #FFF;
+}
+
+.minor {
+	stroke: #999;
+	stroke-width: 0.5;
+}
+
+.major {
+	stroke: #333;
+	stroke-width: 1;
+}
+
+.hour {
+	stroke: #333;
+}
+
+.minute {
+	stroke: #666; 
+}
+
+.second-counterweight {
+	stroke-width: 3;
+}
+
+g.night circle.clock-face {
+  stroke: #fff;
+  fill: #333;
+}
+
+g.night line.major {
+  stroke: #fff;
+}
+
+g.night line.hour {
+  stroke: #fff;
+}
+
+g.night line.minute {
+  stroke: #fff;
+}
+
+g.evening circle.clock-face {
+  stroke: #fff;
+  fill: #888;
+}
+
+g.evening line.major {
+  stroke: #fff;
+}
+
+g.evening line.hour {
+  stroke: #fff;
+}
+
+g.evening line.minute {
+  stroke: #fff;
+}
+
+g.evening line.minor {
+  stroke: #fff;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data&gt;{"options": 
+	{
+		"zone": "America/Los_Angeles",
+		"title": "San Diego, CA",
+		"c_color": "blue"
+	}
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title&lt;/field_list&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;widget-cool-clock&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function (scope, $element, attrs) {
+	var element = $element[0];
+	cacheElementSize(scope, element);
+	$(window).on('resize', onWindowResize);
+	// run after layout
+	setTimeout(onWindowResize, 5);
+	
+	function cacheElementSize(scope, element) {
+		var elem = scope.elem = {}
+		elem.w = element.offsetWidth;
+		elem.h = element.offsetHeight;
+		return elem;
+	}
+
+	function onWindowResize() {
+		var elem = scope.elem;
+		var isSizeChanged = elem.w != element.offsetWidth || elem.h != element.offsetHeight;
+		if (isSizeChanged) {
+			elem = cacheElementSize(scope, element);
+			// to stay square, the child width has to be
+			// min of height, width
+			var w = Math.min(elem.h, elem.w);
+			var clock = element.firstChild;
+			clock.style.width = w + "px";
+		}
+	}	
+}]]&gt;&lt;/link&gt;&lt;name&gt;Cool Clock&lt;/name&gt;&lt;option_schema&gt;[{"name":"zone","default_value":"America/Los_Angeles","section":"Data","label":"TimeZone","type":"string"},{"name":"c_color","default_value":"red","section":"Presentation","label":"Second hand color","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-03-19 15:50:03&lt;/sys_created_on&gt;&lt;sys_id&gt;3a36b30b6f3631005be8583e6b3ee490&lt;/sys_id&gt;&lt;sys_mod_count&gt;179&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cool Clock&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;50f2458f6d6620100acb70b353433062&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_3a36b30b6f3631005be8583e6b3ee490&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-24 20:37:37&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="clock"&gt;
+  &lt;span&gt;&lt;/span&gt;
+    &lt;div class="square"&gt;
+      &lt;svg viewBox="0 0 100 100"&gt;
+        &lt;g transform="translate(50,50)" class="{{c.darkness}}" &gt;
+          &lt;circle class="clock-face" r="48" /&gt;
+          &lt;line ng-repeat="minor in c.minors track by $index" class="minor"
+            y1="42" y2="45" ng-attr-transform="rotate({{360 * $index / c.minors.length}})" /&gt;
+          &lt;line ng-repeat="major in c.majors track by $index" class="major"
+            y1="35" y2="46" ng-attr-transform="rotate({{360 * $index / c.majors.length}})" /&gt;
+          &lt;line class="hour" y1="2" y2="-20"
+            ng-attr-transform="rotate({{30 * c.date.hours() + c.date.minutes() / 2}})" /&gt;
+          &lt;line class="minute" y1="4" y2="-30"
+            ng-attr-transform="rotate({{6 * c.date.minutes() + c.date.seconds() / 10}})" /&gt;
+          &lt;g ng-attr-transform="rotate({{6 * c.date.seconds()}})"&gt;
+            &lt;line stroke="{{::c.options.c_color}}" class="second" y1="10" y2="-38" /&gt;
+            &lt;line stroke="{{::c.options.c_color}}" class="second-counterweight" y1="10" y2="2" /&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
+  &lt;div class="text-center text-muted m-t-sm"&gt;{{::c.options.title}}&lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 15:17:19</sys_created_on>
+        <sys_id>21c794ab2fc5301058052d5df699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6dc794ab2fc5301058052d5df699b694</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_21c794ab2fc5301058052d5df699b69a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 15:17:19</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>
