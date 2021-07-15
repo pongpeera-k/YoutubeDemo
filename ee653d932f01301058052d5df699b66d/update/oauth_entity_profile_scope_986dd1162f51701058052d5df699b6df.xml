@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Microsoft default_profile">323691de2f11701058052d5df699b63b</oauth_entity_profile>
+        <oauth_entity_scope display_value="test_scope">3d9b15d22f51701058052d5df699b65a</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 09:24:57</sys_created_on>
+        <sys_id>986dd1162f51701058052d5df699b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>323691de2f11701058052d5df699b63b</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_986dd1162f51701058052d5df699b6df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 09:24:57</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>

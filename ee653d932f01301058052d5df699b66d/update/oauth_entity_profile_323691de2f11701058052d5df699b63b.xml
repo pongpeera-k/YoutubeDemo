@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>client_credentials</grant_type>
+        <jwt_provider/>
+        <name>Microsoft default_profile</name>
+        <oauth_entity display_value="Microsoft">5df411de2f11701058052d5df699b6f6</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 08:53:28</sys_created_on>
+        <sys_id>323691de2f11701058052d5df699b63b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Microsoft default_profile</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>oauth_entity_profile_323691de2f11701058052d5df699b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 09:23:47</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

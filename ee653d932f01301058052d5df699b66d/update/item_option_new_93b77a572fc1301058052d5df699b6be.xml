@@ -68,17 +68,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-05 08:20:18</sys_created_on>
         <sys_id>93b77a572fc1301058052d5df699b6be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Barber</sys_name>
         <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
         <sys_policy/>
         <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
         <sys_update_name>item_option_new_93b77a572fc1301058052d5df699b6be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-13 04:48:51</sys_updated_on>
+        <sys_updated_on>2021-07-14 09:52:12</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>14</type>
+        <type>9</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

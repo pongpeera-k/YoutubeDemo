@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Pets" max_length="40" name="x_664324_youtubede_pets" type="collection">
+    <element label="Pets" max_length="40" name="x_664324_youtubede_pets" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Barber" max_length="32" name="barber" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Owner" max_length="32" name="owner_id" reference="sys_user" type="reference"/>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="DELETE">
+        <in_default_profile>false</in_default_profile>
+        <name>test_scope</name>
+        <oauth_entity display_value="Microsoft">5df411de2f11701058052d5df699b6f6</oauth_entity>
+        <oauth_entity_scope>sth</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 09:12:56</sys_created_on>
+        <sys_id>695a9dde2f11701058052d5df699b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_scope</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>oauth_entity_scope_695a9dde2f11701058052d5df699b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 09:12:56</sys_updated_on>
+    </oauth_entity_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</application>
+        <file_path/>
+        <instance_id>55153a72dbc097044065f0e5bf961935</instance_id>
+        <instance_name>dev49358</instance_name>
+        <name>oauth_entity_scope_695a9dde2f11701058052d5df699b6af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope"><oauth_entity_scope action="INSERT_OR_UPDATE"><in_default_profile>false</in_default_profile><name>test_scope</name><oauth_entity display_value="Microsoft">5df411de2f11701058052d5df699b6f6</oauth_entity><oauth_entity_scope>sth</oauth_entity_scope><sys_class_name>oauth_entity_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-14 09:12:56</sys_created_on><sys_id>695a9dde2f11701058052d5df699b6af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test_scope</sys_name><sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package><sys_policy/><sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope><sys_update_name>oauth_entity_scope_695a9dde2f11701058052d5df699b6af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-14 09:12:56</sys_updated_on></oauth_entity_scope></record_update>]]></payload>
+        <payload_hash>1306016237</payload_hash>
+        <record_name>test_scope</record_name>
+        <reverted_from/>
+        <source>eee85d462f95301058052d5df699b605</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 09:12:56</sys_created_on>
+        <sys_id>77aa51d22f51701058052d5df699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa44a628d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 09:12:56</sys_updated_on>
+        <type>OAuth Entity Scope</type>
+        <update_guid>bfaa51d2d5517010eca4f0761b2237b5</update_guid>
+        <update_guid_history>bfaa51d2d5517010eca4f0761b2237b5:1306016237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test_scope">040d1d162f51701058052d5df699b64a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 09:23:03</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_scope">oauth_entity_scope</sys_db_object>
+        <sys_id>561b18d3092a4d52ade5f1ee6a079901</sys_id>
+        <sys_metadata>695a9dde2f11701058052d5df699b6af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_scope</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_scope_delete display_value="">072dc606f013415a9abfaded84df09f9</sys_scope_delete>
+        <sys_update_name>oauth_entity_scope_695a9dde2f11701058052d5df699b6af</sys_update_name>
+        <sys_update_version display_value="oauth_entity_scope_695a9dde2f11701058052d5df699b6af">77aa51d22f51701058052d5df699b6b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 09:23:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

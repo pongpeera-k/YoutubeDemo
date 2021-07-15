@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_664324_youtubede.testing_server_script</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>testing_server_script</name>
+        <script><![CDATA[var testing_server_script = Class.create();
+testing_server_script.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	callAPI: function(){		
+		try { 
+			var r = new sn_ws.RESTMessageV2('x_664324_youtubede.testtest', 'Default GET');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			return responseBody;
+		}
+		catch(ex) {
+			var message = ex.message;
+			return null;
+		}		
+	},
+    type: 'testing_server_script'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 08:22:02</sys_created_on>
+        <sys_id>ce0ecd5a2f11701058052d5df699b67a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>testing_server_script</sys_name>
+        <sys_package display_value="YoutubeDemo" source="x_664324_youtubede">ee653d932f01301058052d5df699b66d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="YoutubeDemo">ee653d932f01301058052d5df699b66d</sys_scope>
+        <sys_update_name>sys_script_include_ce0ecd5a2f11701058052d5df699b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 08:26:29</sys_updated_on>
+    </sys_script_include>
+</record_update>
